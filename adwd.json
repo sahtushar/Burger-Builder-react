@@ -1,0 +1,229 @@
+{
+  "_id": "5ce3d78a420c1b0266c84d17",
+  "active": true,
+  "airtel_id": "SR19-MAY20-552",
+  "api_request": false,
+  "attempt": 18,
+  "c_at": "2019-05-21T16:18:42.643+05:30",
+  "crawlerError": null,
+  "exception": null,
+  "first_attempt": null,
+  "job_id": 3705,
+  "last_attempt": "2019-05-21T17:43:37.149+05:30",
+  "machineIp": "10.5.118.208",
+  "response": {
+    "message": "Target selector not found: #ctl00_ContentPlaceHolder1_NN_othernode_GG_NNRequest_0_tblRow_drpNodeName",
+    "data": {
+      "tocoSrNumber": "R/NN-337353"
+    },
+    "payload_error": true,
+    "success": false
+  },
+  "serviceRequest": {
+    "AirtelSrNo": "SR19-MAY20-552",
+    "SrType": "NEW BUILD",
+    "indusSiteId": null,
+    "tocoSiteId": null,
+    "customerSiteId": "HY6019",
+    "customerSiteName": "KUKATPALLY",
+    "circle": "Andhra Pradesh",
+    "state": "Telangana",
+    "cellType": "GSM",
+    "siteType": "Macro",
+    "city": "Hyderabad",
+    "isDieselGenerator": null,
+    "searchRingRadius": "50",
+    "infillNewTown": "INFILL",
+    "productType": "New Nominal Site Request",
+    "showcaseNonShowcase": "Showcase",
+    "townStatus": "No",
+    "town": "None",
+    "requestForNetworkType": "2G+4G",
+    "targetDate": "31/08/2019",
+    "projectName": "Smart City/Metro",
+    "remarks": "Relocation of HY1009",
+    "dhqNondhq": null,
+    "district": "BHARATPUR",
+    "siteUse": "Coverage",
+    "tenure": null,
+    "tower_type": "RTT",
+    "min_max_antenna_height": null,
+    "pincode": "500001",
+    "power_type": null,
+    "expansion_type": "Expansion Complete Cabex (MW + GSM + BTS + Transmission Rack)",
+    "mwTransmissionEquipmentDetails": {
+      "requirementType": null,
+      "noOfU": null,
+      "power": null
+    },
+    "proceed_pre_sr": null,
+    "powerUpgradeRequirement": {},
+    "mwAntenna": [
+      {
+        "size": 0.6,
+        "height": "30",
+        "azimuth": "20",
+        "weight": 0
+      }
+    ],
+    "radioAntenna": [
+      {
+        "height": "30",
+        "azimuth": "20",
+        "length": 2.69,
+        "width": 0.35,
+        "noOfPorts": "6 Port",
+        "portFrequencies": "900",
+        "weight": 35,
+        "manufacturer": null,
+        "make": null,
+        "gain": null,
+        "type": "6-Port UWB (900-2600)",
+        "sector": null
+      },
+      {
+        "height": "30",
+        "azimuth": "190",
+        "length": 2.69,
+        "width": 0.35,
+        "noOfPorts": "2 Port",
+        "portFrequencies": "900",
+        "weight": 35,
+        "manufacturer": null,
+        "make": null,
+        "gain": null,
+        "type": "6-Port UWB (900-2600)",
+        "sector": null
+      },
+      {
+        "height": "30",
+        "azimuth": "230",
+        "length": 2.69,
+        "width": 0.35,
+        "noOfPorts": "2 Port",
+        "portFrequencies": "900",
+        "weight": 35,
+        "manufacturer": null,
+        "make": null,
+        "gain": null,
+        "type": "6-Port UWB (900-2600)",
+        "sector": null
+      }
+    ],
+    "fiberNodeProvisioning": {
+      "nodes": [],
+      "required": "No"
+    },
+    "bts": {
+      "trx": "1/1/1",
+      "configCarriers": 2,
+      "cabinets": [
+        {
+          "networkType": "2G",
+          "type": "Split Version",
+          "manufacturer": "ERICSSON",
+          "make": "BBUDUG_RRU2219 ( 2G Stand Alone @ 900 Mhz)",
+          "length": 0.28,
+          "breadth": null,
+          "height": 0.35,
+          "powerRating": 0.599,
+          "voltage": "-48 V",
+          "btsLocation": null,
+          "locationMainUnit": "Outdoor",
+          "spaceInU": 1,
+          "locationOfRRU": "Tower Base",
+          "noOfRRUnits": 3,
+          "weightOfRRUnit": null,
+          "aglOfRRUnit": "1",
+          "weightOfBTS": 36.0
+        },
+        {
+          "networkType": "4G",
+          "type": "Split Version",
+          "manufacturer": "ERICSSON",
+          "make": "BBU5216_RRUS14 ( 4G_1C Stand Alone @ 1800 Mhz)",
+          "length": 0.28,
+          "breadth": null,
+          "height": 0.35,
+          "powerRating": 1.196,
+          "voltage": "-48 V",
+          "btsLocation": null,
+          "locationMainUnit": "Outdoor",
+          "spaceInU": 1,
+          "locationOfRRU": "Tower Base",
+          "noOfRRUnits": 3,
+          "weightOfRRUnit": null,
+          "aglOfRRUnit": "1",
+          "weightOfBTS": 69.0
+        },
+        {
+          "networkType": "4G",
+          "type": "Split Version",
+          "manufacturer": "ERICSSON",
+          "make": "BBU5216_RRU4412 (4G_2C Stand Alone @ 2300 Mhz)",
+          "length": 0.28,
+          "breadth": null,
+          "height": 0.35,
+          "powerRating": 0.845,
+          "voltage": "-48 V",
+          "btsLocation": null,
+          "locationMainUnit": "Outdoor",
+          "spaceInU": 1,
+          "locationOfRRU": "Tower Base",
+          "noOfRRUnits": 3,
+          "weightOfRRUnit": null,
+          "aglOfRRUnit": "1",
+          "weightOfBTS": 36.0
+        }
+      ]
+    },
+    "tmaTmbDetails": {},
+    "priorityDetails": {
+      "nominalLatitude": "17.49881",
+      "nominalLongitude": "78.39621",
+      "P1": {
+        "siteAddress": "KUKATPALLY",
+        "towerType": "RT Tower",
+        "latitude": "17.49881",
+        "longitude": "78.39621"
+      },
+      "P2": null,
+      "P3": null
+    },
+    "mcb": {
+      "total": 12,
+      "R06A": 0,
+      "R16A": 10,
+      "R32A": 2,
+      "R63A": 0,
+      "R80A": 0
+    },
+    "otherNodes": [
+      {
+        "name": "Parswa",
+        "type": "Outdoor",
+        "manufacturer": "PARSWA",
+        "make": "PARSWA",
+        "voltage": "-48 V",
+        "power": "0.8",
+        "length": 0.85,
+        "breadth": 0.75,
+        "height": 1.41,
+        "fullRack": false,
+        "space": 0,
+        "remarks": "PARSWA"
+      }
+    ],
+    "radioRmAntenna": [],
+    "btsRm": [],
+    "rruRm": [],
+    "mwRmAntenna": []
+  },
+  "service_request_id": "5ce24e8f420c1b08a4798ec1",
+  "site_user_id": "5ad8ae75420c1b7ec8d7e9d6",
+  "status": 25,
+  "telecomOperator": "IndusTowers",
+  "toco_sr_no": "R/NN-337353",
+  "u_at": "2019-05-21T17:49:29.993+05:30",
+  "uniq_req_id": null
+}
