@@ -9,6 +9,8 @@ const burger = (props) => {
     console.log("ingredients", ingredients);
     let count=0;
     let transformedIngredients = Object.keys(ingredients).map((ingredient_name) => {
+        console.log("name",ingredient_name);
+        debugger;
         return [...Array(ingredients[ingredient_name])].map((_, i) => {
             ++count;
             return (<BurgerIngredient key={i+ingredient_name} type={ingredient_name}/>)

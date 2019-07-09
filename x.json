@@ -1,0 +1,238 @@
+{
+  "_id": ObjectId("5d242e27420c1ba9ad5b2eb6"),
+  "active": true,
+  "airtel_id": "SR19-JUL05-718",
+  "api_request": false,
+  "attempt": 13,
+  "c_at": "2019-07-09T11:33:19.753+05:30",
+  "crawlerError": null,
+  "exception": null,
+  "first_attempt": "2019-07-09T11:33:20.083+05:30",
+  "job_id": 8003,
+  "last_attempt": "2019-07-09T11:33:20.083+05:30",
+  "machineIp": "10.5.118.208",
+  "response": {
+    "message": "Target selector not found: div.divHeaderTab:contains"
+    "data": {
+      "tocoSrNumber": "R/NN-349902"
+    },
+    "payload_error": true,
+    "success": false
+  },
+  "serviceRequest": {
+    "AirtelSrNo": "SR19-JUL05-718",
+    "SrType": "NEW BUILD",
+    "indusSiteId": null,
+    "tocoSiteId": null,
+    "customerSiteId": "ROUN01",
+    "customerSiteName": "Rohrund",
+    "circle": "Rajasthan",
+    "state": "Rajasthan",
+    "cellType": "GSM",
+    "siteType": "Macro",
+    "city": "Jaisalmer",
+    "isDieselGenerator": null,
+    "searchRingRadius": "50",
+    "infillNewTown": "INFILL",
+    "productType": "COW Site",
+    "showcaseNonShowcase": "Non Showcase",
+    "townStatus": "No",
+    "town": "None",
+    "requestForNetworkType": "2G+4G",
+    "targetDate": "11/10/2019",
+    "projectName": "",
+    "remarks": "",
+    "dhqNondhq": null,
+    "district": "BHARATPUR",
+    "siteUse": "Coverage",
+    "tenure": null,
+    "tower_type": "COW",
+    "min_max_antenna_height": null,
+    "pincode": "345033",
+    "power_type": null,
+    "expansion_type": "Expansion Complete Cabex (MW + GSM + BTS + Transmission Rack)",
+    "mwTransmissionEquipmentDetails": {
+      "requirementType": null,
+      "noOfU": null,
+      "power": null
+    },
+    "proceed_pre_sr": false,
+    "powerUpgradeRequirement": {},
+    "mwAntenna": [
+      {
+        "size": 1.2,
+        "height": "28",
+        "azimuth": "10",
+        "weight": 32
+      }
+    ],
+    "radioAntenna": [
+      {
+        "height": "28",
+        "azimuth": "10",
+        "length": 1.937,
+        "width": 0.269,
+        "noOfPorts": "4 Port",
+        "portFrequencies": "900+1800",
+        "weight": 24,
+        "manufacturer": null,
+        "make": null,
+        "gain": null,
+        "type": "4 Port DB ( 900-2170) ",
+        "sector": null
+      },
+      {
+        "height": "28",
+        "azimuth": "120",
+        "length": 1.937,
+        "width": 0.269,
+        "noOfPorts": "4 Port",
+        "portFrequencies": "900+1800",
+        "weight": 24,
+        "manufacturer": null,
+        "make": null,
+        "gain": null,
+        "type": "4 Port DB ( 900-2170) ",
+        "sector": null
+      },
+      {
+        "height": "28",
+        "azimuth": "240",
+        "length": 1.937,
+        "width": 0.269,
+        "noOfPorts": "4 Port",
+        "portFrequencies": "900+1800",
+        "weight": 24,
+        "manufacturer": null,
+        "make": null,
+        "gain": null,
+        "type": "4 Port DB ( 900-2170) ",
+        "sector": null
+      },
+      {
+        "height": "28",
+        "azimuth": "10",
+        "length": 1.937,
+        "width": 0.269,
+        "noOfPorts": "4 Port",
+        "portFrequencies": "900+1800",
+        "weight": 24,
+        "manufacturer": null,
+        "make": null,
+        "gain": null,
+        "type": "4 Port DB ( 900-2170) ",
+        "sector": null
+      },
+      {
+        "height": "28",
+        "azimuth": "120",
+        "length": 1.937,
+        "width": 0.269,
+        "noOfPorts": "4 Port",
+        "portFrequencies": "900+1800",
+        "weight": 24,
+        "manufacturer": null,
+        "make": null,
+        "gain": null,
+        "type": "4 Port DB ( 900-2170) ",
+        "sector": null
+      },
+      {
+        "height": "28",
+        "azimuth": "240",
+        "length": 1.937,
+        "width": 0.269,
+        "noOfPorts": "4 Port",
+        "portFrequencies": "900+1800",
+        "weight": 24,
+        "manufacturer": null,
+        "make": null,
+        "gain": null,
+        "type": "4 Port DB ( 900-2170) ",
+        "sector": null
+      }
+    ],
+    "fiberNodeProvisioning": {
+      "nodes": [],
+      "required": "No"
+    },
+    "bts": {
+      "trx": "1/1/1",
+      "configCarriers": 2,
+      "cabinets": [
+        {
+          "networkType": "2G",
+          "type": "Split Version",
+          "manufacturer": "HUAWEI",
+          "make": "BBUDBS3900_RRU3959 (2G Stand Alone @ 900 Mhz)",
+          "length": 0.356,
+          "breadth": null,
+          "height": 0.48,
+          "powerRating": "1.062",
+          "voltage": "-48 V",
+          "btsLocation": null,
+          "locationMainUnit": "Outdoor",
+          "spaceInU": 2,
+          "locationOfRRU": "Tower Top",
+          "noOfRRUnits": 3,
+          "weightOfRRUnit": null,
+          "aglOfRRUnit": "28",
+          "weightOfBTS": 42.0
+        },
+        {
+          "networkType": "4G",
+          "type": "Towertop",
+          "manufacturer": "HUAWEI",
+          "make": "RRU3953w (4G1C Stand Alone)",
+          "length": null,
+          "breadth": null,
+          "height": null,
+          "powerRating": "0.702",
+          "voltage": "-48 V",
+          "btsLocation": null,
+          "locationMainUnit": null,
+          "spaceInU": null,
+          "locationOfRRU": "Tower Top",
+          "noOfRRUnits": 3,
+          "weightOfRRUnit": null,
+          "aglOfRRUnit": "28",
+          "weightOfBTS": 0.1
+        }
+      ]
+    },
+    "tmaTmbDetails": {},
+    "priorityDetails": {
+      "nominalLatitude": "27.26927",
+      "nominalLongitude": "71.24209",
+      "P1": {
+        "siteAddress": "Rohrund , Jaisalmer",
+        "towerType": "",
+        "latitude": "27.26927",
+        "longitude": "71.24209"
+      },
+      "P2": null,
+      "P3": null
+    },
+    "mcb": {
+      "total": 7,
+      "R06A": 0,
+      "R16A": 6,
+      "R32A": 1,
+      "R63A": 0,
+      "R80A": 0
+    },
+    "otherNodes": [],
+    "radioRmAntenna": [],
+    "btsRm": [],
+    "rruRm": [],
+    "mwRmAntenna": []
+  },
+  "service_request_id": ObjectId("007835857835852ff804fa51"),
+  "site_user_id": ObjectId("5ad8ae75420c1b7ec8d7e9d9"),
+  "status": 25,
+  "telecomOperator": "IndusTowers",
+  "toco_sr_no": "R/NN-349902",
+  "u_at": "2019-07-09T11:39:57.497+05:30",
+  "uniq_req_id": null
+}
+

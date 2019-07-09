@@ -3,23 +3,19 @@ import classes from './BuildControl.css'
 
 class buildControl extends Component{
 
-    increase=label=>{
-        console.log(label);
-        console.log(this.props.ingredients);
-        let current_count=this.props.ingredients[label.toLowerCase()];
-        ++current_count;
-        this.props.ingredients[label.toLowerCase()]=current_count;
-
+    constructor(props){
+        super(props);
     }
     render() {
-
 
         console.log("buildControl" ,this.props);
         return (
             <div className={classes.BuildControl}>
-                <div className={classes.Label}>{this.props.label}</div>
-                <div onClick={()=>{this.increase(this.props.label)}} className={classes.Less}>Less</div>
-                <div className={classes.More}>More</div>
+                <div className={classes.Label}>{this.props.type}</div>
+
+                {this.props.type?( <div onClick={() => {this.props.removeIngredient(this.props.type)}} className={classes.Less}>Less</div>):null}
+               {this.props.type?( <div onClick={() => {this.props.addIngredient (this.props.type)}} className={classes.More}>More</div>):null}
+
             </div>
         )
     }
