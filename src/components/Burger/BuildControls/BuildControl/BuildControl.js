@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import classes from './BuildControl.css'
 
 class buildControl extends Component{
-
-    constructor(props){
-        super(props);
-    }
     render() {
 
         console.log("buildControl" ,this.props);

@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, {Component, Suspense} from 'react';
+import {BrowserRouter as Router, Link,Route} from 'react-router-dom';
 import Aux from '../../hoc/Aux';
 import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
@@ -33,14 +34,15 @@ class BurgerBuilder extends Component
         };
         updatedIngredients[type]=currentCount;
         let newPrice=INGREDIENT_PRICES[type]+this.state.totalPrice;
-
-        this.setState({newPrice:newPrice,ingredients:updatedIngredients});
+        setTimeout(()=>{
+            this.setState({newPrice:newPrice,ingredients:updatedIngredients});
+        },1000)
+        // this.setState({newPrice:newPrice,ingredients:updatedIngredients});
     }
     removeIngredient=(type)=>{
         let currentCount=this.state.ingredients[type];
 
         console.log(currentCount);
-        debugger;
         --currentCount;
         //new state object
         let updatedIngredients={
@@ -53,13 +55,26 @@ class BurgerBuilder extends Component
         updatedIngredients[type]=currentCount;
         let newPrice=INGREDIENT_PRICES[type]+this.state.totalPrice;
 
-        this.setState({newPrice:newPrice,ingredients:updatedIngredients});
+        setTimeout(()=>{
+            this.setState({newPrice:newPrice,ingredients:updatedIngredients});
+        },1000)
+
     }
     render() {
         return(
             <Aux>
+                <Suspense fallback={<h2>Product list is loading...</h2>}>
+
                 <Burger ingredients={this.state.ingredients}/>
-                <BuildControls addIngredient={this.addIngredient} removeIngredient={this.removeIngredient} />
+                {/*<BuildControls addIngredient={this.addIngredient} removeIngredient={this.removeIngredient} />*/}
+                    <Router>
+                        <ul>
+                            <li > <Link to='/BuildControls'> Start Editing Burger</Link></li>
+                        </ul>
+                        <Route path='/BuildControls' render={() => <BuildControls addIngredient={this.addIngredient} removeIngredient={this.removeIngredient}  />} />
+                    </Router>
+                </Suspense>
+
             </Aux>
         )
     }
